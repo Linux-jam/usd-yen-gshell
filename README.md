@@ -16,7 +16,7 @@ Download via Gnome Extension Store: https://extensions.gnome.org/extension/7618/
 or
 
 ```
-cd /tmp && git clone https://github.com/vezza/usd-mxn-gshell.git && mv usd-mxn-gshell usd-mxn-gshell@kinduff.github.com && cp -av usd-mxn-gshell@kinduff.github.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension usd-mxn-gshell@kinduff.github.com && rm -rf usd-mxn-gshell@kinduff.github.com
+cd /tmp && git clone https://github.com/kinduff/usd-mxn-gshell.git && mv usd-mxn-gshell usd-mxn-gshell@kinduff.github.com && cp -av usd-mxn-gshell@kinduff.github.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension usd-mxn-gshell@kinduff.github.com && rm -rf usd-mxn-gshell@kinduff.github.com
 ```
 
 Last method is deprecated with the newer versions, just copy extension file to
