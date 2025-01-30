@@ -1,6 +1,6 @@
 {
   "uuid": "usd-mxn-gshell@kinduff.github.com",
-  "name": "EUR-USD",
+  "name": "USD-MXN",
   "description": "USD (US Dolar) converted to MXN (Mexican Peso). Updates are received every 30 seconds.\n\nIt is a fork of EUR-USD. This extension uses economia.awesomeapi.com.br",
   "version": 1,
   "shell-version": [
