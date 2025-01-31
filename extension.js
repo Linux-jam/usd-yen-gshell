@@ -1,4 +1,4 @@
-// This extension shows USD to MXN conversion on Gnome panel.
+// This extension shows USD to JPY conversion on Gnome panel.
 // Copyright (C) 2024 vezza
 // See LICENSE file
 
@@ -20,7 +20,7 @@ async function fetchDollarQuotation() {
   }
 
   const message = Soup.Message.new_from_encoded_form(
-    "GET", "https://economia.awesomeapi.com.br/last/USD-MXN", Soup.form_encode_hash({})
+    "GET", "https://economia.awesomeapi.com.br/last/USD-JPY", Soup.form_encode_hash({})
   );
 
   try {
@@ -37,7 +37,7 @@ async function fetchDollarQuotation() {
 
 function updatePanelText(quotation) {
   let displayText = quotation
-    ? `1 USD = ${quotation} MXN`
+    ? `1 USD = ${quotation} JPY`
     : "";
 
   const panelButtonText = new St.Label({
@@ -54,7 +54,7 @@ async function handleRequestApi() {
   if (response) {
     try {
       const bodyResponse = JSON.parse(response);
-      let dollarQuotation = bodyResponse["USDMXN"]["bid"];
+      let dollarQuotation = bodyResponse["USDJPY"]["bid"];
       dollarQuotation = dollarQuotation.substring(0, 5);
       updatePanelText(dollarQuotation);
     } catch (error) {
@@ -66,7 +66,7 @@ async function handleRequestApi() {
   }
 }
 
-export default class Eurusd {
+export default class UsdJpy {
   enable() {
     panelButton = new St.Bin({ style_class: "panel-button" });
     handleRequestApi();
