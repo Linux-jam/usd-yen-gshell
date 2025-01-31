@@ -1,5 +1,5 @@
 // This extension shows USD to JPY conversion on Gnome panel.
-// Copyright (C) 2024 vezza
+// Copyright (C) 2025 AM Linux Team
 // See LICENSE file
 
 'use strict';
