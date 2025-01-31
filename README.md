@@ -2,7 +2,7 @@
 
 Gnome-Shell v.(3.38, 40, 41, 42, 43, 44, 45, 46, 47) Extension, for conversion of USD to YEN on the center of the top panel.
 
-This extension is a modified version of https://github.com/vezza/eur-usd-gshell extension to show USD to YEN.
+This extension is a modified version of https://github.com/vezza/eur-usd-gshell extension to show USD to EUR.
 
 # Licence
 
