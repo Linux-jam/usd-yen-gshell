@@ -4,7 +4,7 @@
   "description": "USD (US Dolar) converted to JPY (Japanese YEN). Updates are received every 30 seconds.\n\nIt is a fork of EUR-USD. This extension uses economia.awesomeapi.com.br",
   "version": 1,
   "shell-version": [
-    "47"
+    "43"
   ],
   "url": "https://github.com/Linux_jam/usd-yen-gshell"
 }
