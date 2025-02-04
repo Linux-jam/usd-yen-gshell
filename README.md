@@ -11,7 +11,7 @@ See LICENSE File
 # How to install
 
 
-Download via Gnome Extension Store: https://extensions.gnome.org/
+Download via Gnome Extension Store: [This](https://extensions.gnome.org/extension/7836)
 
 or
 
